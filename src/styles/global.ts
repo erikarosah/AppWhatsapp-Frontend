@@ -38,10 +38,19 @@ export const GlobalStyle = createGlobalStyle`
 
     h1, h2, h3, h4, h5, h6, strong {
         font-weight: 400;
+        color: var(--text-title);
+    }
+
+    span {
+        color: var(--text-span);
     }
 
     button {
         cursor: pointer;
+    }
+
+    img {
+        border-radius: 50%;
     }
 
     [disabled] {
